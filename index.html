@@ -5,7 +5,15 @@
             <title>Minha Página</title>
             <script type="text/javascript" src="js/main.js"></script>
         </head>
-        <body>
-            
+        <body onload="Load()">
+            <button type="button" onclick="ClicouBotao()">Clique aqui</button> 
+            <h1 id="ResultadoBotao">...</h1>
+            <h2 id="Agradecimento" onclick="ClicouParagrafo(this)">Clique AQUI para o agradecimento!</h2> 
+            <h3 id="MudandoCor" onmouseover="MudaCor(this)" onmouseout="VoltaCor(this)">Vamos Mudar de COR</h3>
+            <h4 id="Redirecionar1" onclick="RedirecionaNovaAba(this)">Clique para ir ao site do GOOGLE</h4>
+            <select onchange="FuncaoChange(this)">
+                <option value="1">Valor 1</option>
+                <option value="2">Valor 2</option>
+                <option value="3">Valor 3</option>
         </body>
     </html>    
